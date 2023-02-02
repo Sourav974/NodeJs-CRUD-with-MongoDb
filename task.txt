@@ -1,0 +1,49 @@
+REST API - JSON
+
+GET /users = HTML Document Render - Done
+GET /api/users = List all users JSON - Done
+
+GET /api/users/1 - Get the user with Id 1 - Done
+GET /api/users/2 - Get the user with Id 2 - Done
+
+Dynamic Path Parameters
+GET /api/users/:id
+:id -> Variable | Dynamic
+
+POST /api/users - Create new user
+
+PATCH /api/users/1 - Edit the user with ID 1
+
+Delete /api/users/1 - Delete the user with Id 1
+
+1675259843683: GET: /api/users
+1675259859981: POST: /api/users
+1675259870861: GET: /api/users/1004
+1675313616541: POST: /api/users
+1675313905002: POST: /api/users
+1675313914309: POST: /api/users
+1675314000167: POST: /api/users
+1675314252321: GET: /api/users/10046
+1675320665615: POST: /api/users
+1675320869486: POST: /api/users
+1675321084636: GET: /api/users
+1675321151159: GET: /users
+1675321280918: POST: /api/users
+1675321287873: GET: /users
+1675321307164: POST: /api/users
+1675321309615: GET: /users
+1675321394023: GET: /api/users
+1675321537557: GET: /api/users/63db5d593275e5c43b0bf753
+1675321785762: PATCH: /api/users/63db5d593275e5c43b0bf753
+1675321794301: GET: /users
+1675321795274: GET: /users
+1675321795470: GET: /users
+1675321846467: PATCH: /api/users/63db5d593275e5c43b0bf753
+1675321850721: GET: /users
+1675321851326: GET: /users
+1675321851557: GET: /users
+1675321915937: POST: /api/users
+1675321930118: GET: /api/users
+1675321946389: PATCH: /api/users/63db623b9e1622c9d1900d08
+1675322065594: DELETE: /api/users/63db5d593275e5c43b0bf753
+1675322070890: GET: /api/users
